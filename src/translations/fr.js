@@ -197,8 +197,9 @@ export const FR = {
       mirrorClue: "L'Indice du Miroir", silentWitness: "Le Témoin Silencieux", vanishingTrain: "Le Train qui Disparaît",
       whispersLibrary: "Murmures dans la Bibliothèque", clockmakerSecret: "Le Secret de l'Horloger",
       invisibleBridge: "Le Pont Invisible", threeWishes: "Les Trois Souhaits",
+      lastLetter: "La Dernière Lettre",
       featherMoonBird: "La Plume de l'Oiseau Lunaire", snowFox: "Le Renard des Neiges",
-      tailorTalkingCat: "Le Tailleur et le Chat Parlant",
+      tailorTalkingCat: "Le Tailleur et le Chat Parlant", lettersAcrossSea: "Lettres à Travers la Mer",
     },
     tags: {
       Action: "Action", Technology: "Technologie", Thriller: "Thriller", Suspense: "Suspense",

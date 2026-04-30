@@ -198,8 +198,9 @@ export const CS = {
       mirrorClue: "Zrcadlová Stopa", silentWitness: "Tichý Svědek", vanishingTrain: "Mizející Vlak",
       whispersLibrary: "Šepoty v Knihovně", clockmakerSecret: "Tajemství Hodináře",
       invisibleBridge: "Neviditelný Most", threeWishes: "Tři Přání",
+      lastLetter: "Poslední Dopis",
       featherMoonBird: "Pero Měsíčního Ptáka", snowFox: "Sněžná Liška",
-      tailorTalkingCat: "Krejčí a Mluvící Kočka",
+      tailorTalkingCat: "Krejčí a Mluvící Kočka", lettersAcrossSea: "Dopisy přes Moře",
     },
     tags: {
       Action: "Akce", Technology: "Technologie", Thriller: "Thriller", Suspense: "Napětí",

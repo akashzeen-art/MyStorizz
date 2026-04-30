@@ -197,8 +197,9 @@ export const ES = {
       mirrorClue: "La Pista del Espejo", silentWitness: "El Testigo Silencioso", vanishingTrain: "El Tren que Desaparece",
       whispersLibrary: "Susurros en la Biblioteca", clockmakerSecret: "El Secreto del Relojero",
       invisibleBridge: "El Puente Invisible", threeWishes: "Los Tres Deseos",
+      lastLetter: "La Última Carta",
       featherMoonBird: "La Pluma del Pájaro Lunar", snowFox: "El Zorro de Nieve",
-      tailorTalkingCat: "El Sastre y el Gato Parlante",
+      tailorTalkingCat: "El Sastre y el Gato Parlante", lettersAcrossSea: "Cartas a Través del Mar",
     },
     tags: {
       Action: "Acción", Technology: "Tecnología", Thriller: "Thriller", Suspense: "Suspenso",

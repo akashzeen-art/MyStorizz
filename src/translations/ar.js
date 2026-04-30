@@ -191,8 +191,9 @@ export const AR = {
       mirrorClue: "دليل المرآة", silentWitness: "الشاهد الصامت", vanishingTrain: "القطار المختفي",
       whispersLibrary: "همسات في المكتبة", clockmakerSecret: "سر صانع الساعات",
       invisibleBridge: "الجسر الخفي", threeWishes: "الأمنيات الثلاث",
+      lastLetter: "الرسالة الأخيرة",
       featherMoonBird: "ريشة طائر القمر", snowFox: "ثعلب الثلج",
-      tailorTalkingCat: "الخياط والقط المتكلم",
+      tailorTalkingCat: "الخياط والقط المتكلم", lettersAcrossSea: "رسائل عبر البحر",
     },
     tags: {
       Action: "أكشن", Technology: "تكنولوجيا", Thriller: "إثارة", Suspense: "تشويق",

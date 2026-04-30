@@ -168,11 +168,13 @@ const VoiceRecording = ({ onBack }) => {
     { id: "invisible-bridge", title: t.voiceRecording.storyTitles.invisibleBridge, category: "drama", image: invisibleBridgeImg, tags: ["Drama", "Journey", "Hope"] },
     { id: "three-wishes", title: t.voiceRecording.storyTitles.threeWishes, category: "drama", image: threeWishesImg, tags: ["Drama", "Choices", "Fate"] },
     { id: "tailor-talking-cat", title: t.voiceRecording.storyTitles.tailorTalkingCat, category: "drama", image: tailorTalkingCatImg, tags: ["Drama", "Whimsical", "Companionship"] },
+    { id: "last-letter", title: t.voiceRecording.storyTitles.lastLetter, category: "drama", image: clockmakerSecretImg, tags: ["Drama", "Emotional", "Journey"] },
     // Romantic Stories
     { id: "feather-moon-bird", title: t.voiceRecording.storyTitles.featherMoonBird, category: "romantic", image: featherMoonBirdImg, tags: ["Romantic", "Magic", "Adventure"] },
     { id: "snow-fox", title: t.voiceRecording.storyTitles.snowFox, category: "romantic", image: snowFoxImg, tags: ["Romantic", "Winter", "Heartwarming"] },
     { id: "mirror-gate-romantic", title: t.voiceRecording.storyTitles.mirrorGate, category: "romantic", image: mirrorGate, tags: ["Romantic", "Fantasy", "Adventure"] },
     { id: "starlight-seed-romantic", title: t.voiceRecording.storyTitles.starlightSeed, category: "romantic", image: starlightSeed, tags: ["Romantic", "Discovery", "Heartwarming"] },
+    { id: "letters-across-sea", title: t.voiceRecording.storyTitles.lettersAcrossSea, category: "romantic", image: featherMoonBirdImg, tags: ["Romantic", "Journey", "Heartwarming"] },
   ];
 
   const startVoiceRecognition = () => {

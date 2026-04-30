@@ -138,8 +138,32 @@ const Stories = () => {
     { id: "starlight-seed", title: t.voiceRecording.storyTitles.starlightSeed, category: "scifi", image: starlightSeed, tags: ["Sci-Fi", "Space", "Discovery"] },
     { id: "androids-dilemma", title: t.voiceRecording.storyTitles.androidsDilemma, category: "scifi", image: androidsDilemma, tags: ["Sci-Fi", "AI", "Philosophy"] },
     // Horror Stories
-    {
-      id: "room-404",
+    { id: "room-404", title: t.voiceRecording.storyTitles.room404, category: "horror", image: room404, tags: ["Horror", "Mystery", "Supernatural"] },
+    { id: "sleep-paralysis", title: t.voiceRecording.storyTitles.sleepParalysis, category: "horror", image: sleepParalysis, tags: ["Horror", "Psychological", "Nightmare"] },
+    { id: "doll-maker", title: t.voiceRecording.storyTitles.dollMaker, category: "horror", image: dollMaker, tags: ["Horror", "Creepy", "Supernatural"] },
+    { id: "last-photograph", title: t.voiceRecording.storyTitles.lastPhotograph, category: "horror", image: lastPhotograph, tags: ["Horror", "Mystery", "Supernatural"] },
+    { id: "shadow-man", title: t.voiceRecording.storyTitles.shadowMan, category: "horror", image: shadowMan, tags: ["Horror", "Supernatural", "Dark"] },
+    { id: "voices-well", title: t.voiceRecording.storyTitles.voicesWell, category: "horror", image: voicesWell, tags: ["Horror", "Supernatural", "Mystery"] },
+    // Mystery Stories
+    { id: "midnight-caller", title: t.voiceRecording.storyTitles.midnightCaller, category: "mystery", image: midnightCaller, tags: ["Mystery", "Suspense", "Thriller"] },
+    { id: "disappearing-village", title: t.voiceRecording.storyTitles.disappearingVillage, category: "mystery", image: disappearingVillage, tags: ["Mystery", "Supernatural", "Village"] },
+    { id: "mirror-clue", title: t.voiceRecording.storyTitles.mirrorClue, category: "mystery", image: mirrorClue, tags: ["Mystery", "Clues", "Investigation"] },
+    { id: "silent-witness", title: t.voiceRecording.storyTitles.silentWitness, category: "mystery", image: silentWitness, tags: ["Mystery", "Witness", "Crime"] },
+    { id: "vanishing-train", title: t.voiceRecording.storyTitles.vanishingTrain, category: "mystery", image: vanishingTrain, tags: ["Mystery", "Train", "Disappearance"] },
+    { id: "whispers-library", title: t.voiceRecording.storyTitles.whispersLibrary, category: "mystery", image: whispersLibrary, tags: ["Mystery", "Library", "Supernatural"] },
+    // Drama Stories
+    { id: "clockmaker-secret", title: t.voiceRecording.storyTitles.clockmakerSecret, category: "drama", image: clockmakerSecretImg, tags: ["Drama", "Mystery", "Emotional"] },
+    { id: "invisible-bridge", title: t.voiceRecording.storyTitles.invisibleBridge, category: "drama", image: invisibleBridgeImg, tags: ["Drama", "Journey", "Hope"] },
+    { id: "three-wishes", title: t.voiceRecording.storyTitles.threeWishes, category: "drama", image: threeWishesImg, tags: ["Drama", "Choices", "Fate"] },
+    { id: "tailor-talking-cat", title: t.voiceRecording.storyTitles.tailorTalkingCat, category: "drama", image: tailorTalkingCatImg, tags: ["Drama", "Whimsical", "Companionship"] },
+    { id: "last-letter", title: t.voiceRecording.storyTitles.lastLetter, category: "drama", image: clockmakerSecretImg, tags: ["Drama", "Emotional", "Journey"] },
+    // Romantic Stories
+    { id: "feather-moon-bird", title: t.voiceRecording.storyTitles.featherMoonBird, category: "romantic", image: featherMoonBirdImg, tags: ["Romantic", "Magic", "Adventure"] },
+    { id: "snow-fox", title: t.voiceRecording.storyTitles.snowFox, category: "romantic", image: snowFoxImg, tags: ["Romantic", "Winter", "Heartwarming"] },
+    { id: "mirror-gate-romantic", title: t.voiceRecording.storyTitles.mirrorGate, category: "romantic", image: mirrorGate, tags: ["Romantic", "Fantasy", "Adventure"] },
+    { id: "starlight-seed-romantic", title: t.voiceRecording.storyTitles.starlightSeed, category: "romantic", image: starlightSeed, tags: ["Romantic", "Discovery", "Heartwarming"] },
+    { id: "letters-across-sea", title: t.voiceRecording.storyTitles.lettersAcrossSea, category: "romantic", image: featherMoonBirdImg, tags: ["Romantic", "Journey", "Heartwarming"] },
+  ];
       title: t.voiceRecording.storyTitles.room404,
       category: "horror",
       image: room404,

@@ -198,8 +198,9 @@ export const PL = {
       mirrorClue: "Lustrzana Wskazówka", silentWitness: "Cichy Świadek", vanishingTrain: "Znikający Pociąg",
       whispersLibrary: "Szepty w Bibliotece", clockmakerSecret: "Sekret Zegarmistrza",
       invisibleBridge: "Niewidzialny Most", threeWishes: "Trzy Życzenia",
+      lastLetter: "Ostatni List",
       featherMoonBird: "Pióro Księżycowego Ptaka", snowFox: "Śnieżny Lis",
-      tailorTalkingCat: "Krawiec i Mówiący Kot",
+      tailorTalkingCat: "Krawiec i Mówiący Kot", lettersAcrossSea: "Listy przez Morze",
     },
     tags: {
       Action: "Akcja", Technology: "Technologia", Thriller: "Thriller", Suspense: "Suspens",

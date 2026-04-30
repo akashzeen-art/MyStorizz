@@ -242,8 +242,9 @@ export const EN = {
       mirrorClue: "The Mirror Clue", silentWitness: "The Silent Witness", vanishingTrain: "The Vanishing Train",
       whispersLibrary: "Whispers in the Library", clockmakerSecret: "The Clockmaker's Secret",
       invisibleBridge: "The Invisible Bridge", threeWishes: "The Three Wishes",
+      lastLetter: "The Last Letter",
       featherMoonBird: "The Feather of the Moon Bird", snowFox: "The Snow Fox",
-      tailorTalkingCat: "The Tailor and the Talking Cat",
+      tailorTalkingCat: "The Tailor and the Talking Cat", lettersAcrossSea: "Letters Across the Sea",
     },
     tags: {
       Action: "Action", Technology: "Technology", Thriller: "Thriller", Suspense: "Suspense",
