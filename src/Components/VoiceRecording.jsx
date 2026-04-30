@@ -128,264 +128,51 @@ const VoiceRecording = ({ onBack }) => {
 
   // Sample featured stories
   const featuredStories = [
-    {
-      id: "code-black",
-      title: t.voiceRecording.storyTitles.codeBlack,
-      category: "action",
-      image: codeBlack,
-      tags: ["Action", "Technology", "Thriller"]
-    },
-    {
-      id: "garage-ambush",
-      title: t.voiceRecording.storyTitles.garageAmbush,
-      category: "action",
-      image: garageAmbush,
-      tags: ["Action", "Suspense", "Urban"]
-    },
-    {
-      id: "midnight-chase",
-      title: t.voiceRecording.storyTitles.midnightChase,
-      category: "action",
-      image: midnightChase,
-      tags: ["Action", "Night", "Pursuit"]
-    },
-    {
-      id: "skyfall-rescue",
-      title: t.voiceRecording.storyTitles.skyfallRescue,
-      category: "action",
-      image: skyfallRescue,
-      tags: ["Action", "Rescue", "Adventure"]
-    },
-    {
-      id: "tunnel-escape",
-      title: t.voiceRecording.storyTitles.tunnelEscape,
-      category: "action",
-      image: tunnelEscape,
-      tags: ["Action", "Escape", "Thriller"]
-    },
-    {
-      id: "train-danger",
-      title: t.voiceRecording.storyTitles.trainDanger,
-      category: "action",
-      image: trainDanger,
-      tags: ["Action", "Train", "Adventure"]
-    },
+    // Action Stories
+    { id: "code-black", title: t.voiceRecording.storyTitles.codeBlack, category: "action", image: codeBlack, tags: ["Action", "Technology", "Thriller"] },
+    { id: "garage-ambush", title: t.voiceRecording.storyTitles.garageAmbush, category: "action", image: garageAmbush, tags: ["Action", "Suspense", "Urban"] },
+    { id: "midnight-chase", title: t.voiceRecording.storyTitles.midnightChase, category: "action", image: midnightChase, tags: ["Action", "Night", "Pursuit"] },
+    { id: "skyfall-rescue", title: t.voiceRecording.storyTitles.skyfallRescue, category: "action", image: skyfallRescue, tags: ["Action", "Rescue", "Adventure"] },
+    { id: "tunnel-escape", title: t.voiceRecording.storyTitles.tunnelEscape, category: "action", image: tunnelEscape, tags: ["Action", "Escape", "Thriller"] },
+    { id: "train-danger", title: t.voiceRecording.storyTitles.trainDanger, category: "action", image: trainDanger, tags: ["Action", "Train", "Adventure"] },
     // Fantasy Stories
-    {
-      id: "stormborn",
-      title: t.voiceRecording.storyTitles.stormborn,
-      category: "fantasy",
-      image: stormborn,
-      tags: ["Fantasy", "Magic", "Epic"]
-    },
-    {
-      id: "crystal-time",
-      title: t.voiceRecording.storyTitles.crystalTime,
-      category: "fantasy",
-      image: crystalTime,
-      tags: ["Fantasy", "Time", "Magic"]
-    },
-    {
-      id: "curse-prince",
-      title: t.voiceRecording.storyTitles.cursePrince,
-      category: "fantasy",
-      image: cursePrince,
-      tags: ["Fantasy", "Curse", "Royalty"]
-    },
-    {
-      id: "mirror-gate",
-      title: t.voiceRecording.storyTitles.mirrorGate,
-      category: "fantasy",
-      image: mirrorGate,
-      tags: ["Fantasy", "Portal", "Adventure"]
-    },
-    {
-      id: "phoenix-reborn",
-      title: t.voiceRecording.storyTitles.phoenixReborn,
-      category: "fantasy",
-      image: phoenixReborn,
-      tags: ["Fantasy", "Phoenix", "Rebirth"]
-    },
-    {
-      id: "whispers-forest",
-      title: t.voiceRecording.storyTitles.whispersForest,
-      category: "fantasy",
-      image: whispersForest,
-      tags: ["Fantasy", "Nature", "Mystery"]
-    },
+    { id: "stormborn", title: t.voiceRecording.storyTitles.stormborn, category: "fantasy", image: stormborn, tags: ["Fantasy", "Magic", "Epic"] },
+    { id: "crystal-time", title: t.voiceRecording.storyTitles.crystalTime, category: "fantasy", image: crystalTime, tags: ["Fantasy", "Time", "Magic"] },
+    { id: "curse-prince", title: t.voiceRecording.storyTitles.cursePrince, category: "fantasy", image: cursePrince, tags: ["Fantasy", "Curse", "Royalty"] },
+    { id: "mirror-gate", title: t.voiceRecording.storyTitles.mirrorGate, category: "fantasy", image: mirrorGate, tags: ["Fantasy", "Portal", "Adventure"] },
+    { id: "phoenix-reborn", title: t.voiceRecording.storyTitles.phoenixReborn, category: "fantasy", image: phoenixReborn, tags: ["Fantasy", "Phoenix", "Rebirth"] },
+    { id: "whispers-forest", title: t.voiceRecording.storyTitles.whispersForest, category: "fantasy", image: whispersForest, tags: ["Fantasy", "Nature", "Mystery"] },
     // Sci-Fi Stories
-    {
-      id: "chron-rewind",
-      title: t.voiceRecording.storyTitles.chronRewind,
-      category: "scifi",
-      image: chronRewind,
-      tags: ["Sci-Fi", "Time Travel", "Technology"]
-    },
-    {
-      id: "digital-ghost",
-      title: t.voiceRecording.storyTitles.digitalGhost,
-      category: "scifi",
-      image: digitalGhost,
-      tags: ["Sci-Fi", "Digital", "Mystery"]
-    },
-    {
-      id: "echoes-titan",
-      title: t.voiceRecording.storyTitles.echoesTitan,
-      category: "scifi",
-      image: echoesTitan,
-      tags: ["Sci-Fi", "Space", "Adventure"]
-    },
-    {
-      id: "neur-net",
-      title: t.voiceRecording.storyTitles.neuroNet,
-      category: "scifi",
-      image: neuroNet,
-      tags: ["Sci-Fi", "AI", "Technology"]
-    },
-    {
-      id: "starlight-seed",
-      title: t.voiceRecording.storyTitles.starlightSeed,
-      category: "scifi",
-      image: starlightSeed,
-      tags: ["Sci-Fi", "Space", "Discovery"]
-    },
-    {
-      id: "androids-dilemma",
-      title: t.voiceRecording.storyTitles.androidsDilemma,
-      category: "scifi",
-      image: androidsDilemma,
-      tags: ["Sci-Fi", "AI", "Philosophy"]
-    },
+    { id: "chron-rewind", title: t.voiceRecording.storyTitles.chronRewind, category: "scifi", image: chronRewind, tags: ["Sci-Fi", "Time Travel", "Technology"] },
+    { id: "digital-ghost", title: t.voiceRecording.storyTitles.digitalGhost, category: "scifi", image: digitalGhost, tags: ["Sci-Fi", "Digital", "Mystery"] },
+    { id: "echoes-titan", title: t.voiceRecording.storyTitles.echoesTitan, category: "scifi", image: echoesTitan, tags: ["Sci-Fi", "Space", "Adventure"] },
+    { id: "neuro-net", title: t.voiceRecording.storyTitles.neuroNet, category: "scifi", image: neuroNet, tags: ["Sci-Fi", "AI", "Technology"] },
+    { id: "starlight-seed", title: t.voiceRecording.storyTitles.starlightSeed, category: "scifi", image: starlightSeed, tags: ["Sci-Fi", "Space", "Discovery"] },
+    { id: "androids-dilemma", title: t.voiceRecording.storyTitles.androidsDilemma, category: "scifi", image: androidsDilemma, tags: ["Sci-Fi", "AI", "Philosophy"] },
     // Horror Stories
-    {
-      id: "room-404",
-      title: t.voiceRecording.storyTitles.room404,
-      category: "horror",
-      image: room404,
-      tags: ["Horror", "Mystery", "Supernatural"]
-    },
-    {
-      id: "sleep-paralysis",
-      title: t.voiceRecording.storyTitles.sleepParalysis,
-      category: "horror",
-      image: sleepParalysis,
-      tags: ["Horror", "Psychological", "Nightmare"]
-    },
-    {
-      id: "doll-maker",
-      title: t.voiceRecording.storyTitles.dollMaker,
-      category: "horror",
-      image: dollMaker,
-      tags: ["Horror", "Creepy", "Supernatural"]
-    },
-    {
-      id: "last-photograph",
-      title: t.voiceRecording.storyTitles.lastPhotograph,
-      category: "horror",
-      image: lastPhotograph,
-      tags: ["Horror", "Mystery", "Supernatural"]
-    },
-    {
-      id: "shadow-man",
-      title: t.voiceRecording.storyTitles.shadowMan,
-      category: "horror",
-      image: shadowMan,
-      tags: ["Horror", "Supernatural", "Dark"]
-    },
-    {
-      id: "voices-well",
-      title: t.voiceRecording.storyTitles.voicesWell,
-      category: "horror",
-      image: voicesWell,
-      tags: ["Horror", "Supernatural", "Mystery"]
-    },
+    { id: "room-404", title: t.voiceRecording.storyTitles.room404, category: "horror", image: room404, tags: ["Horror", "Mystery", "Supernatural"] },
+    { id: "sleep-paralysis", title: t.voiceRecording.storyTitles.sleepParalysis, category: "horror", image: sleepParalysis, tags: ["Horror", "Psychological", "Nightmare"] },
+    { id: "doll-maker", title: t.voiceRecording.storyTitles.dollMaker, category: "horror", image: dollMaker, tags: ["Horror", "Creepy", "Supernatural"] },
+    { id: "last-photograph", title: t.voiceRecording.storyTitles.lastPhotograph, category: "horror", image: lastPhotograph, tags: ["Horror", "Mystery", "Supernatural"] },
+    { id: "shadow-man", title: t.voiceRecording.storyTitles.shadowMan, category: "horror", image: shadowMan, tags: ["Horror", "Supernatural", "Dark"] },
+    { id: "voices-well", title: t.voiceRecording.storyTitles.voicesWell, category: "horror", image: voicesWell, tags: ["Horror", "Supernatural", "Mystery"] },
     // Mystery Stories
-    {
-      id: "midnight-caller",
-      title: t.voiceRecording.storyTitles.midnightCaller,
-      category: "mystery",
-      image: midnightCaller,
-      tags: ["Mystery", "Suspense", "Thriller"]
-    },
-    {
-      id: "disappearing-village",
-      title: t.voiceRecording.storyTitles.disappearingVillage,
-      category: "mystery",
-      image: disappearingVillage,
-      tags: ["Mystery", "Supernatural", "Village"]
-    },
-    {
-      id: "mirror-clue",
-      title: t.voiceRecording.storyTitles.mirrorClue,
-      category: "mystery",
-      image: mirrorClue,
-      tags: ["Mystery", "Clues", "Investigation"]
-    },
-    {
-      id: "silent-witness",
-      title: t.voiceRecording.storyTitles.silentWitness,
-      category: "mystery",
-      image: silentWitness,
-      tags: ["Mystery", "Witness", "Crime"]
-    },
-    {
-      id: "vanishing-train",
-      title: t.voiceRecording.storyTitles.vanishingTrain,
-      category: "mystery",
-      image: vanishingTrain,
-      tags: ["Mystery", "Train", "Disappearance"]
-    },
-    {
-      id: "whispers-library",
-      title: t.voiceRecording.storyTitles.whispersLibrary,
-      category: "mystery",
-      image: whispersLibrary,
-      tags: ["Mystery", "Library", "Supernatural"]
-    },
-    // Drama Stories (replacing Fairy Tale)
-    {
-      id: "clockmaker-secret",
-      title: t.voiceRecording.storyTitles.clockmakerSecret,
-      category: "drama",
-      image: clockmakerSecretImg,
-      tags: ["Drama", "Mystery", "Emotional"]
-    },
-    {
-      id: "invisible-bridge",
-      title: t.voiceRecording.storyTitles.invisibleBridge,
-      category: "drama",
-      image: invisibleBridgeImg,
-      tags: ["Drama", "Journey", "Hope"]
-    },
-    {
-      id: "three-wishes",
-      title: t.voiceRecording.storyTitles.threeWishes,
-      category: "drama",
-      image: threeWishesImg,
-      tags: ["Drama", "Choices", "Fate"]
-    },
+    { id: "midnight-caller", title: t.voiceRecording.storyTitles.midnightCaller, category: "mystery", image: midnightCaller, tags: ["Mystery", "Suspense", "Thriller"] },
+    { id: "disappearing-village", title: t.voiceRecording.storyTitles.disappearingVillage, category: "mystery", image: disappearingVillage, tags: ["Mystery", "Supernatural", "Village"] },
+    { id: "mirror-clue", title: t.voiceRecording.storyTitles.mirrorClue, category: "mystery", image: mirrorClue, tags: ["Mystery", "Clues", "Investigation"] },
+    { id: "silent-witness", title: t.voiceRecording.storyTitles.silentWitness, category: "mystery", image: silentWitness, tags: ["Mystery", "Witness", "Crime"] },
+    { id: "vanishing-train", title: t.voiceRecording.storyTitles.vanishingTrain, category: "mystery", image: vanishingTrain, tags: ["Mystery", "Train", "Disappearance"] },
+    { id: "whispers-library", title: t.voiceRecording.storyTitles.whispersLibrary, category: "mystery", image: whispersLibrary, tags: ["Mystery", "Library", "Supernatural"] },
+    // Drama Stories
+    { id: "clockmaker-secret", title: t.voiceRecording.storyTitles.clockmakerSecret, category: "drama", image: clockmakerSecretImg, tags: ["Drama", "Mystery", "Emotional"] },
+    { id: "invisible-bridge", title: t.voiceRecording.storyTitles.invisibleBridge, category: "drama", image: invisibleBridgeImg, tags: ["Drama", "Journey", "Hope"] },
+    { id: "three-wishes", title: t.voiceRecording.storyTitles.threeWishes, category: "drama", image: threeWishesImg, tags: ["Drama", "Choices", "Fate"] },
+    { id: "tailor-talking-cat", title: t.voiceRecording.storyTitles.tailorTalkingCat, category: "drama", image: tailorTalkingCatImg, tags: ["Drama", "Whimsical", "Companionship"] },
     // Romantic Stories
-    {
-      id: "feather-moon-bird",
-      title: t.voiceRecording.storyTitles.featherMoonBird,
-      category: "romantic",
-      image: featherMoonBirdImg,
-      tags: ["Romantic", "Magic", "Adventure"]
-    },
-    {
-      id: "snow-fox",
-      title: t.voiceRecording.storyTitles.snowFox,
-      category: "romantic",
-      image: snowFoxImg,
-      tags: ["Romantic", "Winter", "Heartwarming"]
-    },
-    {
-      id: "tailor-talking-cat",
-      title: t.voiceRecording.storyTitles.tailorTalkingCat,
-      category: "romantic",
-      image: tailorTalkingCatImg,
-      tags: ["Romantic", "Whimsical", "Companionship"]
-    }
+    { id: "feather-moon-bird", title: t.voiceRecording.storyTitles.featherMoonBird, category: "romantic", image: featherMoonBirdImg, tags: ["Romantic", "Magic", "Adventure"] },
+    { id: "snow-fox", title: t.voiceRecording.storyTitles.snowFox, category: "romantic", image: snowFoxImg, tags: ["Romantic", "Winter", "Heartwarming"] },
+    { id: "mirror-gate-romantic", title: t.voiceRecording.storyTitles.mirrorGate, category: "romantic", image: mirrorGate, tags: ["Romantic", "Fantasy", "Adventure"] },
+    { id: "starlight-seed-romantic", title: t.voiceRecording.storyTitles.starlightSeed, category: "romantic", image: starlightSeed, tags: ["Romantic", "Discovery", "Heartwarming"] },
   ];
 
   const startVoiceRecognition = () => {
